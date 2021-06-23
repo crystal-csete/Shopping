@@ -1,0 +1,35 @@
+/** @format */
+
+.item__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.item__img {
+  margin-top: 2rem;
+  height: 18rem;
+  width: 18rem;
+  object-fit: cover;
+  border: 3px solid rgb(149, 101, 194);
+  border-radius: 10px;
+}
+
+.item__text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.item__add__btn {
+  padding: 0.3rem;
+  margin: 0.5rem;
+  background-color: rgb(149, 101, 194);
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  cursor: pointer;
+}

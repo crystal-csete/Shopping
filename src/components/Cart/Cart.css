@@ -1,0 +1,35 @@
+/** @format */
+
+/* Cart styles */
+
+.cart__summary__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: aliceblue;
+  margin: 3rem;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.cart__summary__title {
+  margin-bottom: 1rem;
+}
+
+.cart__summary__span {
+  margin-bottom: 1rem;
+}
+
+.cart__summary__btn {
+  padding: 0.3rem;
+  margin: 0.5rem;
+  background-color: rgb(149, 101, 194);
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  cursor: pointer;
+}
